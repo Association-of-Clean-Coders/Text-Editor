@@ -27,5 +27,5 @@ int isFull(List *l);
 void displayItems(int[] pos,List *l);
 int findCharLength(int pos,List *l);
 void sortAccordingToCharLength(List *l);
-void replace(int pos,List *l);
+void replace(int pos,Entry e,List *l);
 #endif // LINKEDLIST_H_INCLUDED
